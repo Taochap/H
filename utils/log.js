@@ -26,13 +26,13 @@ module.exports.loader = (data, option) => {
 	const color_two = chalk[arrayColor[Math.floor(Math.random() * arrayColor.length)]]
 	switch (option) {
 		case "warn":
-			console.log(chalk.red('[ XThanh ] » ') + data);
+			console.log(chalk.red('[ TNTXTRICK ] » ') + data);
 			break;
 		case "error":
-			console.log(chalk.red('[ XThanh ] » ') + data);
+			console.log(chalk.red('[ TNTXTRICK ] » ') + data);
 			break;
 		default:
-			console.log(color_one(`[ XThanh ] » `) + color_two(data));
+			console.log(color_one(`[ TNTXTRICK ] » `) + color_two(data));
 			break;
 	}
 }
